@@ -19,7 +19,7 @@ xattr -dr com.apple.quarantine /Applications/Mia.app
 
 The Apple warning only shows on the first install.
 
-## A motor on a Linux machine
+## A motor on a Linux or Windows machine
 
 Mia runs its agents in motors. The Mac app brings one ("Este Mac"); to add a Linux machine, run there (Node.js 24+, pnpm, git
 and Claude Code or Codex first):
@@ -30,6 +30,15 @@ curl -fsSL https://raw.githubusercontent.com/richardoliveira/Mia-releases/main/i
 
 It installs the newest signed motor as a systemd user service and prints what to paste in Mia (Configurações › Motores ›
 Adicionar motor, with "Conectar por SSH" on). The motor then updates itself.
+
+On Windows (Node.js 24+, git and Claude Code or Codex first), in PowerShell:
+
+```
+irm https://raw.githubusercontent.com/richardoliveira/Mia-releases/main/install-motor.ps1 | iex
+```
+
+It starts the motor when you log in to Windows (apps it opens need the desktop) and says how to turn on the OpenSSH Server, which
+the Mac uses to reach it.
 
 ## Updates
 
