@@ -2,6 +2,9 @@
 
 Mia downloads for Mac (Apple Silicon). The source code lives in a private repository; this one only holds the releases.
 
+Mia has two parts: the **app** (the Mac window) and the **motor** (Mia's name for the engine that runs the agents and reads the
+cards). The app brings a motor for the Mac; Linux and Windows machines can run more.
+
 ## Install
 
 1. Download `Mia-<version>.dmg` from the [latest release](https://github.com/richardoliveira/Mia-releases/releases/latest).
@@ -21,7 +24,7 @@ The Apple warning only shows on the first install.
 
 ## A motor on a Linux or Windows machine
 
-Mia runs its agents in motors. The Mac app brings one ("Este Mac"); to add a Linux machine, run there (Node.js 24+, pnpm, git
+To add a Linux machine, run there (Node.js 24+, pnpm, git
 and Claude Code or Codex first):
 
 ```
