@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "notes": "## Mia 0.1.0 for Windows — the first Windows app\n\n### New\n\n- **Mia now runs on Windows.** The app looks and works like Mia on the Mac: the Dashboard with every motor's cards, the card page with its plan, reviews, PRs and timeline, the chats with their terminal, project files, Automations, Settings, and the sidebar boxes (Needs you, Automation results, Tasks, Slack, AI usage). It connects to the same motors as the Mac and the iPhone.\n- **This PC's motor installs from the app.** On the first run, \"Install the motor on this PC\" downloads Mia's signed motor release and starts it whenever you sign in to Windows; Node.js is installed with winget when it is missing. A motor on another machine joins by its address and token, or over SSH (the app keeps the tunnel up).\n- **Tokens stay in Windows Credential Manager.** Motor tokens and the global tokens you add in Settings › Credentials are kept there, and every motor gets a copy, as on the Mac.\n- **Notifications** for each new item in Needs you and for each Slack subject that turns urgent.\n- **Updates arrive by themselves.** The app checks for a new version at launch and every hour; Settings › About shows \"Update to vX\" when one is out.\n\n### Not yet on Windows\n\n- The Calendar box (it needs a calendar source on Windows).\n",
+  "pub_date": "2026-11-11T06:26:47.273Z",
+  "platforms": {
+    "windows-aarch64": {
+      "url": "https://github.com/richardoliveira/Mia-releases/releases/download/windows-v0.1.0/Mia_0.1.0_arm64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbEVqd3JEdExzbnF6emJ4R3hUdDRVQS92SGVrZW5RMi9RbGc5a2xJYUN0NzVVRUthWm1ka29EMm9oRHZ2OVdUQkwxYVJ0U2Y5TTJjN3JPT3hObkxWenE1UnlkRGtHdlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzc4MjEzCWZpbGU6TWlhXzAuMS4wX2FybTY0LXNldHVwLmFhcmNoNjQtcGMtd2luZG93cy1tc3ZjLmV4ZQo3RHZCUlNiSTNjMlh5dyt4S1hmV0FteGVqR0hjRmd2Mm1yckZqOTJhSER2L2I2SStjcEtiMDdibkEyaEllY2IwZEdGZGJjV0JyemVCZ0dUc0RsOVhBQT09Cg=="
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/richardoliveira/Mia-releases/releases/download/windows-v0.1.0/Mia_0.1.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbEVqd3JEdExzbm9zb0VCbGQ1MmVseC9SU1NYMGxKYzRLb1pBT0NEcThhNnZ0ZlVjRk9DMWpkRHBMSnEvSmJDTmNDeWdNenZxYTAvWEk3SzdveUJDbDFUU2J0em9EUEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0Mzc4NDA3CWZpbGU6TWlhXzAuMS4wX3g2NC1zZXR1cC54ODZfNjQtcGMtd2luZG93cy1tc3ZjLmV4ZQpyU0hyN3dxSzl6WURPeE5WVVBROWM5MXZSYUdZTVZtbWVoMkZlQ2J4Rjc2NDRzaXRSRnlCNHhLMmFGTUZHVzd0aDJuNWNKSnZ5aUlVZzJMUlgxcGFBUT09Cg=="
+    }
+  }
+}
